@@ -14,6 +14,10 @@ def list_users():
     return jsonify(users), 200
 
 
+def welcome():
+    return {"msg": "Welcome !!!"}
+
+
 @jwt_required()
 def get_profile():
     # user = User.query.filter_by(user_id=user_id).first()
