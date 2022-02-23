@@ -15,7 +15,7 @@ def list_users():
 
 
 def welcome():
-    return {"msg": "Welcome !!!"}
+    return {"msg": "Bem vindo"}
 
 
 @jwt_required()
